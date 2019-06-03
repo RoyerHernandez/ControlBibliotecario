@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ROYER_PRUEBASModelStoreContainer" CdmEntityContainer="ROYER_PRUEBASEntities">
+    <EntitySetMapping Name="ESTUDIANTE">
+      <EntityTypeMapping TypeName="ROYER_PRUEBASModel.ESTUDIANTE">
+        <MappingFragment StoreEntitySet="ESTUDIANTE">
+          <ScalarProperty Name="id_estudiante" ColumnName="id_estudiante" />
+          <ScalarProperty Name="nombre_estudiante" ColumnName="nombre_estudiante" />
+          <ScalarProperty Name="apellido_estudiante" ColumnName="apellido_estudiante" />
+          <ScalarProperty Name="telefono_movil" ColumnName="telefono_movil" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="grupo" ColumnName="grupo" />
+          <ScalarProperty Name="grado" ColumnName="grado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LIBRO">
+      <EntityTypeMapping TypeName="ROYER_PRUEBASModel.LIBRO">
+        <MappingFragment StoreEntitySet="LIBRO">
+          <ScalarProperty Name="id_libro" ColumnName="id_libro" />
+          <ScalarProperty Name="nombre_libro" ColumnName="nombre_libro" />
+          <ScalarProperty Name="autor" ColumnName="autor" />
+          <ScalarProperty Name="editorial" ColumnName="editorial" />
+          <ScalarProperty Name="cantidad_disponible" ColumnName="cantidad_disponible" />
+          <ScalarProperty Name="fecha_publicacion" ColumnName="fecha_publicacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REGISTRO_LIBRO">
+      <EntityTypeMapping TypeName="ROYER_PRUEBASModel.REGISTRO_LIBRO">
+        <MappingFragment StoreEntitySet="REGISTRO_LIBRO">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_libro" ColumnName="id_libro" />
+          <ScalarProperty Name="id_estudiante" ColumnName="id_estudiante" />
+          <ScalarProperty Name="fecha_registro" ColumnName="fecha_registro" />
+          <ScalarProperty Name="fecha_entrega" ColumnName="fecha_entrega" />
+          <ScalarProperty Name="multa" ColumnName="multa" />
+          <ScalarProperty Name="observaciones" ColumnName="observaciones" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

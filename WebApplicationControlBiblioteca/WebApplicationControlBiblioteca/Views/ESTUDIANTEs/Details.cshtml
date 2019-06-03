@@ -1,0 +1,66 @@
+﻿@model WebApplicationControlBiblioteca.Models.ESTUDIANTE
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ESTUDIANTE</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre_estudiante)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombre_estudiante)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.apellido_estudiante)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.apellido_estudiante)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.telefono_movil)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.telefono_movil)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.grupo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.grupo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.grado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.grado)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_estudiante }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

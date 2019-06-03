@@ -1,0 +1,12 @@
+D:\Users\royer\Source\Repos\WebServiceApiBiblioteca\ServiciosWeb.Datos\bin\Release\ServiciosWeb.Datos.dll.config
+D:\Users\royer\Source\Repos\WebServiceApiBiblioteca\ServiciosWeb.Datos\bin\Release\ServiciosWeb.Datos.dll
+D:\Users\royer\Source\Repos\WebServiceApiBiblioteca\ServiciosWeb.Datos\bin\Release\ServiciosWeb.Datos.pdb
+D:\Users\royer\Source\Repos\WebServiceApiBiblioteca\ServiciosWeb.Datos\bin\Release\EntityFramework.dll
+D:\Users\royer\Source\Repos\WebServiceApiBiblioteca\ServiciosWeb.Datos\bin\Release\EntityFramework.SqlServer.dll
+D:\Users\royer\Source\Repos\WebServiceApiBiblioteca\ServiciosWeb.Datos\bin\Release\EntityFramework.xml
+D:\Users\royer\Source\Repos\WebServiceApiBiblioteca\ServiciosWeb.Datos\bin\Release\EntityFramework.SqlServer.xml
+D:\Users\royer\Source\Repos\WebServiceApiBiblioteca\ServiciosWeb.Datos\obj\Release\ServiciosWeb.Datos.csprojAssemblyReference.cache
+D:\Users\royer\Source\Repos\WebServiceApiBiblioteca\ServiciosWeb.Datos\obj\Release\ServiciosWeb.Datos.csproj.CoreCompileInputs.cache
+D:\Users\royer\Source\Repos\WebServiceApiBiblioteca\ServiciosWeb.Datos\obj\Release\ServiciosWeb.Datos.csproj.CopyComplete
+D:\Users\royer\Source\Repos\WebServiceApiBiblioteca\ServiciosWeb.Datos\obj\Release\ServiciosWeb.Datos.dll
+D:\Users\royer\Source\Repos\WebServiceApiBiblioteca\ServiciosWeb.Datos\obj\Release\ServiciosWeb.Datos.pdb

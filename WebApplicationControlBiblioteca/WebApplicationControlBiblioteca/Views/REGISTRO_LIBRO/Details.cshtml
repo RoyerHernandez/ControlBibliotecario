@@ -1,0 +1,66 @@
+﻿@model WebApplicationControlBiblioteca.Models.REGISTRO_LIBRO
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>REGISTRO_LIBRO</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha_registro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha_registro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha_entrega)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha_entrega)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.multa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.multa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.observaciones)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.observaciones)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ESTUDIANTE.nombre_estudiante)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ESTUDIANTE.nombre_estudiante)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LIBRO.nombre_libro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LIBRO.nombre_libro)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

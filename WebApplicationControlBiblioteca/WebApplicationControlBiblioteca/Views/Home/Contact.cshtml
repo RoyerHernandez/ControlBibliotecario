@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<table class="table">
+
+    @foreach (var registro in Model)
+    {
+        <tr>
+            <td>
+                @registro.LIBRO.id_libro
+            </td>
+            <td>
+                @registro.LIBRO.nombre_libro
+            </td>
+            <td>
+                @registro.LIBRO.autor
+            </td>
+            <td>
+                @registro.LIBRO.editorial
+            </td>
+            <td>
+                @registro.LIBRO.cantidad_disponible
+            </td>
+            <td>
+                @registro.LIBRO.fecha_publicacion
+            </td>
+            <td>
+                @registro.LIBROREGISTRO_LIBRO
+            </td>
+           
+        </tr>
+    }
+
+
+</table>

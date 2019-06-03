@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ROYER_PRUEBASModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ESTUDIANTE">
+    <Key>
+      <PropertyRef Name="id_estudiante" />
+    </Key>
+    <Property Name="id_estudiante" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre_estudiante" Type="varchar" MaxLength="50" />
+    <Property Name="apellido_estudiante" Type="varchar" MaxLength="50" />
+    <Property Name="telefono_movil" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="email" Type="varchar" MaxLength="200" />
+    <Property Name="grupo" Type="varchar" MaxLength="10" />
+    <Property Name="grado" Type="int" />
+  </EntityType>
+  <EntityType Name="LIBRO">
+    <Key>
+      <PropertyRef Name="id_libro" />
+    </Key>
+    <Property Name="id_libro" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre_libro" Type="varchar" MaxLength="100" />
+    <Property Name="autor" Type="varchar" MaxLength="100" />
+    <Property Name="editorial" Type="varchar" MaxLength="70" />
+    <Property Name="cantidad_disponible" Type="int" />
+    <Property Name="fecha_publicacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="REGISTRO_LIBRO">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_libro" Type="int" />
+    <Property Name="id_estudiante" Type="int" />
+    <Property Name="fecha_registro" Type="datetime" />
+    <Property Name="fecha_entrega" Type="datetime" />
+    <Property Name="multa" Type="bit" />
+    <Property Name="observaciones" Type="varchar(max)" />
+  </EntityType>
+  <Association Name="FK__REGISTRO___id_es__4589517F">
+    <End Role="ESTUDIANTE" Type="Self.ESTUDIANTE" Multiplicity="0..1" />
+    <End Role="REGISTRO_LIBRO" Type="Self.REGISTRO_LIBRO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ESTUDIANTE">
+        <PropertyRef Name="id_estudiante" />
+      </Principal>
+      <Dependent Role="REGISTRO_LIBRO">
+        <PropertyRef Name="id_estudiante" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__REGISTRO___id_li__44952D46">
+    <End Role="LIBRO" Type="Self.LIBRO" Multiplicity="0..1" />
+    <End Role="REGISTRO_LIBRO" Type="Self.REGISTRO_LIBRO" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LIBRO">
+        <PropertyRef Name="id_libro" />
+      </Principal>
+      <Dependent Role="REGISTRO_LIBRO">
+        <PropertyRef Name="id_libro" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ROYER_PRUEBASModelStoreContainer">
+    <EntitySet Name="ESTUDIANTE" EntityType="Self.ESTUDIANTE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LIBRO" EntityType="Self.LIBRO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="REGISTRO_LIBRO" EntityType="Self.REGISTRO_LIBRO" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__REGISTRO___id_es__4589517F" Association="Self.FK__REGISTRO___id_es__4589517F">
+      <End Role="ESTUDIANTE" EntitySet="ESTUDIANTE" />
+      <End Role="REGISTRO_LIBRO" EntitySet="REGISTRO_LIBRO" />
+    </AssociationSet>
+    <AssociationSet Name="FK__REGISTRO___id_li__44952D46" Association="Self.FK__REGISTRO___id_li__44952D46">
+      <End Role="LIBRO" EntitySet="LIBRO" />
+      <End Role="REGISTRO_LIBRO" EntitySet="REGISTRO_LIBRO" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

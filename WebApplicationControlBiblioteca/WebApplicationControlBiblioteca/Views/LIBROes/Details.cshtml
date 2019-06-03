@@ -1,0 +1,58 @@
+﻿@model WebApplicationControlBiblioteca.Models.LIBRO
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>LIBRO</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.nombre_libro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nombre_libro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.autor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.autor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.editorial)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.editorial)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cantidad_disponible)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cantidad_disponible)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fecha_publicacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fecha_publicacion)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_libro }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

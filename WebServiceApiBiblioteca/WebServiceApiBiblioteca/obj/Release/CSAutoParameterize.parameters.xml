@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ROYER_PRUEBASEntities-Web.config Connection String" description="ROYER_PRUEBASEntities Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="metadata=res://*/Modelo.LibreriaDBModel.csdl|res://*/Modelo.LibreriaDBModel.ssdl|res://*/Modelo.LibreriaDBModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=royerintecap.database.windows.net;initial catalog=ROYER_PRUEBAS;user id=royer.hernandez;password=Israfel2112;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Users\\royer\\Source\\Repos\\WebServiceApiBiblioteca\\WebServiceApiBiblioteca\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ROYER_PRUEBASEntities']/@connectionString" />
+  </parameter>
+</parameters>

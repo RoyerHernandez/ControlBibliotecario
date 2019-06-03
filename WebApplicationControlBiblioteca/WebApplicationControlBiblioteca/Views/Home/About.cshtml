@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Registro Online";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<table class="table">
+
+    @foreach (var registro in Model)
+    {
+        <tr>
+            <td>
+                @registro.id
+            </td>
+            <td>
+                @registro.id_libro
+            </td>
+            <td>
+                @registro.id_estudiante
+            </td>
+            <td>
+                @registro.fecha_registro
+            </td>
+            <td>
+                @registro.fecha_entrega
+            </td>
+            <td>
+                @registro.multa
+            </td>
+            <td>
+                @registro.observaciones
+            </td>
+            <td>
+                @registro.ESTUDIANTE.nombre_estudiante
+            </td>
+            <td>
+                @registro.LIBRO.nombre_libro
+            </td>
+        </tr>
+    }
+
+
+</table>
