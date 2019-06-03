@@ -10,3 +10,15 @@ D:\Users\royer\Source\Repos\WebServiceApiBiblioteca\ServiciosWeb.Datos\obj\Debug
 D:\Users\royer\Source\Repos\WebServiceApiBiblioteca\ServiciosWeb.Datos\obj\Debug\ServiciosWeb.Datos.csproj.CopyComplete
 D:\Users\royer\Source\Repos\WebServiceApiBiblioteca\ServiciosWeb.Datos\obj\Debug\ServiciosWeb.Datos.dll
 D:\Users\royer\Source\Repos\WebServiceApiBiblioteca\ServiciosWeb.Datos\obj\Debug\ServiciosWeb.Datos.pdb
+D:\Users\royer\Source\RepoBiblioteca\WebServiceApiBiblioteca\ServiciosWeb.Datos\bin\Debug\ServiciosWeb.Datos.dll.config
+D:\Users\royer\Source\RepoBiblioteca\WebServiceApiBiblioteca\ServiciosWeb.Datos\bin\Debug\ServiciosWeb.Datos.dll
+D:\Users\royer\Source\RepoBiblioteca\WebServiceApiBiblioteca\ServiciosWeb.Datos\bin\Debug\ServiciosWeb.Datos.pdb
+D:\Users\royer\Source\RepoBiblioteca\WebServiceApiBiblioteca\ServiciosWeb.Datos\bin\Debug\EntityFramework.dll
+D:\Users\royer\Source\RepoBiblioteca\WebServiceApiBiblioteca\ServiciosWeb.Datos\bin\Debug\EntityFramework.SqlServer.dll
+D:\Users\royer\Source\RepoBiblioteca\WebServiceApiBiblioteca\ServiciosWeb.Datos\bin\Debug\EntityFramework.xml
+D:\Users\royer\Source\RepoBiblioteca\WebServiceApiBiblioteca\ServiciosWeb.Datos\bin\Debug\EntityFramework.SqlServer.xml
+D:\Users\royer\Source\RepoBiblioteca\WebServiceApiBiblioteca\ServiciosWeb.Datos\obj\Debug\ServiciosWeb.Datos.csprojAssemblyReference.cache
+D:\Users\royer\Source\RepoBiblioteca\WebServiceApiBiblioteca\ServiciosWeb.Datos\obj\Debug\ServiciosWeb.Datos.csproj.CoreCompileInputs.cache
+D:\Users\royer\Source\RepoBiblioteca\WebServiceApiBiblioteca\ServiciosWeb.Datos\obj\Debug\ServiciosWeb.Datos.csproj.CopyComplete
+D:\Users\royer\Source\RepoBiblioteca\WebServiceApiBiblioteca\ServiciosWeb.Datos\obj\Debug\ServiciosWeb.Datos.dll
+D:\Users\royer\Source\RepoBiblioteca\WebServiceApiBiblioteca\ServiciosWeb.Datos\obj\Debug\ServiciosWeb.Datos.pdb
