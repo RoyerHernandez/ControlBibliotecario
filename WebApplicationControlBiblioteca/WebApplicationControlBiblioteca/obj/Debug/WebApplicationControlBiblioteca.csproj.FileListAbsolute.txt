@@ -257,7 +257,6 @@ D:\Users\royer\Source\RepoBiblioteca\WebApplicationControlBiblioteca\WebApplicat
 D:\Users\royer\Source\RepoBiblioteca\WebApplicationControlBiblioteca\WebApplicationControlBiblioteca\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
 D:\Users\royer\Source\RepoBiblioteca\WebApplicationControlBiblioteca\WebApplicationControlBiblioteca\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
 D:\Users\royer\Source\RepoBiblioteca\WebApplicationControlBiblioteca\WebApplicationControlBiblioteca\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
-D:\Users\royer\Source\RepoBiblioteca\WebApplicationControlBiblioteca\WebApplicationControlBiblioteca\obj\Debug\WebApplicationControlBiblioteca.csprojAssemblyReference.cache
 D:\Users\royer\Source\RepoBiblioteca\WebApplicationControlBiblioteca\WebApplicationControlBiblioteca\obj\Debug\WebApplicationControlBiblioteca.csproj.CoreCompileInputs.cache
 D:\Users\royer\Source\RepoBiblioteca\WebApplicationControlBiblioteca\WebApplicationControlBiblioteca\obj\Debug\WebApplicationControlBiblioteca.csproj.CopyComplete
 D:\Users\royer\Source\RepoBiblioteca\WebApplicationControlBiblioteca\WebApplicationControlBiblioteca\obj\Debug\WebApplicationControlBiblioteca.dll
